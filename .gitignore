@@ -1,0 +1,16 @@
+###### Common ######
+.exercism
+**/.vscode
+
+###### CSharp ######
+**/bin/**
+**/obj/**
+**/.editorconfig
+
+###### Haskell ######
+**/.stack-work
+**/src/main.*
+**/**.yaml.lock
+
+###### Rust ######
+# Rusts own gitignore
