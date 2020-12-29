@@ -1,6 +1,6 @@
 # My solutions from [exercism.io](https://exercism.io/profiles/tristanappdev)
 
-## C#
 ## Clojure
+## C#
 ## Haskell
 ## Rust
