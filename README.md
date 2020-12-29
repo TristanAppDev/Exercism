@@ -1,6 +1,6 @@
 # My solutions from [exercism.io](https://exercism.io/profiles/tristanappdev)
 
-## Clojure
-## C#
-## Haskell
-## Rust
+## [Clojure](https://github.com/TristanAppDev/Exercism/tree/master/clojure)
+## [C#](https://github.com/TristanAppDev/Exercism/tree/master/csharp)
+## [Haskell](https://github.com/TristanAppDev/Exercism/tree/master/haskell)
+## [Rust](https://github.com/TristanAppDev/Exercism/tree/master/rust)
