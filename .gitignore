@@ -14,3 +14,8 @@
 
 ###### Rust ######
 # Rusts own gitignore
+
+###### Clojure ######
+**/.lein-failures
+**/.nrepl-port
+**/target
