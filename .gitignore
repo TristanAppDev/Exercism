@@ -22,3 +22,6 @@
 **/.calva
 **/.clj-kondo
 **/.lsp
+
+###### Elixir ######
+**/*.exs
