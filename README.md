@@ -4,3 +4,4 @@
 ## [C#](https://github.com/TristanAppDev/Exercism/tree/master/csharp)
 ## [Haskell](https://github.com/TristanAppDev/Exercism/tree/master/haskell)
 ## [Rust](https://github.com/TristanAppDev/Exercism/tree/master/rust)
+## [Elixir](https://github.com/TristanAppDev/Exercism/tree/master/rust)
