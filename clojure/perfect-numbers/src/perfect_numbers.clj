@@ -15,3 +15,4 @@
         (< as num) :deficient
         (> as num) :abundant
         (= as num) :perfect))))
+

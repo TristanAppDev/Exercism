@@ -1,5 +1,6 @@
 // This file was auto-generated based on version 1.2.0 of the canonical data.
 
+using System.Collections.Generic;
 using Xunit;
 
 public class ReverseStringTests
@@ -8,6 +9,16 @@ public class ReverseStringTests
     public void An_empty_string()
     {
         Assert.Equal("", ReverseString.Reverse(""));
+    }
+
+    [Fact]
+    public void Large_string()
+    {
+        List<int> scores = new List<int>();
+        scores.Add(10);
+        scores.Add(100);
+        ReverseString.HighScores(scores);
+        var s = scores;
     }
 
     [Fact(Skip = "Remove this Skip property to run this test")]
@@ -39,4 +50,6 @@ public class ReverseStringTests
     {
         Assert.Equal("reward", ReverseString.Reverse("drawer"));
     }
+
+
 }

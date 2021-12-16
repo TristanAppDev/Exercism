@@ -28,7 +28,7 @@ export function backDoorResponse(blurb) {
  * @param {string} word
  * @returns {string}
  */
-const capitalize = (word) => word[0].toUpperCase() + word.slice(1).toLowerCase();
+const capitalize = (word) => word[0].toUpperCase() + word.substring(1).toLowerCase();
 
 /**
  * Give the password for the front-door, given the responses.

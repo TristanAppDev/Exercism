@@ -1,11 +1,16 @@
 using System;
 using System.Linq;
+using System.Text;
 
 public static class RotationalCipher
 {
-    public static string Rotate(string text, int shiftKey) => 
-        string.Concat(text.Select(c => Char.IsLetter(c) ? shiftLetter(c, shiftKey, Char.IsUpper(c) ? 'A' : 'a') : c));
-        
-    public static char shiftLetter(char letter, int shiftKey, int lowerUpperConst) => 
-        (char)((letter + shiftKey - lowerUpperConst) % 26 + lowerUpperConst);
+    public static string Rotate(string text, int key) => new StringBuilder().AppendJoin("", text.Select(c => Shift(c, key))).ToString();
+    
+    private static char Shift(char c, int key) => Char.IsLetter(c) ? ShiftLetter(c, key) : c;
+    
+    private static char ShiftLetter(char letter, int key)
+    {
+        var offset = Char.IsLower(letter) ? 'a' : 'A';
+        return (char)((letter + key - offset) % 26 + offset);
+    }
 }
