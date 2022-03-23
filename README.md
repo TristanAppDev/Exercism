@@ -1,4 +1,6 @@
-# My solutions from [exercism.io](https://exercism.io/profiles/tristanappdev)
+Discontinued! For my solutions see [exercism.org](https://exercism.org/profiles/tristanappdev/solutions)
+
+# My solutions from [exercism.org](https://exercism.io/profiles/tristanappdev)
 
 ## [Clojure](https://github.com/TristanAppDev/Exercism/tree/master/clojure)
 ## [Java](https://github.com/TristanAppDev/Exercism/tree/master/java)
